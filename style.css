@@ -26,3 +26,12 @@
 .book-teaser-art img{width:auto;max-width:100%;height:270px;object-fit:contain;border-radius:5px}
 @media(max-width:900px){.release-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.story-grid{grid-template-columns:1fr}}
 @media(max-width:620px){.release-grid,.story-grid{grid-template-columns:1fr}.release-card img{width:100px;height:100px;flex-basis:100px}.story-card img,.story-card .story-type{width:112px;height:112px;flex-basis:112px}.book-teaser-art img{height:220px}}
+.stories-section .story-grid{grid-template-columns:minmax(0,550px)}
+.future-stories{padding-bottom:1.5rem}
+.future-grid .story-card{align-items:flex-start;min-height:180px}
+.future-grid .story-card img{width:150px;height:150px;flex:0 0 150px;object-fit:contain}
+.future-grid .story-card h3{font-size:1.3rem}
+.future-grid .story-card p{font-size:.9rem;line-height:1.45}
+.future-grid .story-card .text-link{display:inline-block;margin-top:.7rem;font-size:.87rem}
+.spotify-embed h3{font:1.4rem Georgia,serif;margin-bottom:.8rem}
+@media(max-width:620px){.future-grid .story-card img{width:112px;height:112px;flex-basis:112px}.future-grid .story-card h3{font-size:1.15rem}}
