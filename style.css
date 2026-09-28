@@ -4,5 +4,25 @@
 .missing-cover{display:grid;place-items:center;aspect-ratio:1;background:radial-gradient(circle,#566ab1,#152a5c 65%,#0b1c38);color:#d7e2ff;font:5rem Georgia,serif}
 .spotify-embed{margin-top:2rem;max-width:700px}
 .hero-name{display:block;font-size:1.3em;line-height:1.02}.hero-line{display:block;font-size:.49em;line-height:1.2;max-width:560px;margin-top:.45em}
+.release-card img,.catalogue-card img{height:auto;aspect-ratio:1;object-fit:cover}
+.upcoming-grid img{height:92px}
 @media(max-width:900px){.nav{align-items:flex-start;flex-direction:column;padding-block:.8rem;gap:.5rem}.nav-links{gap:.65rem 1rem}.hero{min-height:470px;background-position:57% center}.release-grid{grid-template-columns:repeat(2,1fr)}.story-grid{grid-template-columns:repeat(2,1fr)}.upcoming-grid{grid-template-columns:1fr 1fr}.platforms{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.wrap{width:min(100% - 28px,1180px)}.nav-links{font-size:.9rem}.hero{min-height:520px;background-position:67% center;align-items:end}.hero:before{background:linear-gradient(0deg,rgba(4,23,56,.89),rgba(4,23,56,.25) 75%)}.hero-inner{padding-block:2rem}.hero h1{font-size:2.45rem;max-width:360px}.hero p:not(.eyebrow){font-size:1rem}.section,.stories-section{padding-block:3.2rem}.section-heading{align-items:start;flex-direction:column;gap:.4rem}.release-grid,.story-grid,.upcoming-grid,.platforms{grid-template-columns:1fr 1fr}.story-card img,.story-type{height:160px}.story-card h3{font-size:1.2rem}.story-card div:last-child{padding:1rem}.story-card p{font-size:.9rem}.upcoming-grid{grid-template-columns:1fr}.book-teaser{grid-template-columns:1fr;margin-block:3rem}.book-teaser>div:first-child{padding:2rem}.book-teaser-art img{height:220px}.about-layout,.book-layout{grid-template-columns:1fr;gap:2rem}.book-page{padding-block:2.5rem}footer .wrap{flex-direction:column}.catalogue-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Jaquettes compactes : proportions carrées et couvertures complètes. */
+.release-card{display:flex;align-items:center;min-height:124px}
+.release-card img{width:112px;height:112px;flex:0 0 112px;aspect-ratio:1;object-fit:contain;margin:.5rem 0 .5rem .5rem;border-radius:9px}
+.release-card div{min-width:0;padding:.7rem .8rem}
+.release-card h3{font-size:1rem;overflow-wrap:anywhere}
+.catalogue-card img,.catalogue-card .missing-cover{width:140px;height:140px;aspect-ratio:1;object-fit:contain;margin:1rem auto 0;border-radius:9px}
+.catalogue-card .missing-cover{font-size:3.5rem}
+.catalogue-card h3{text-align:center;overflow-wrap:anywhere}
+.story-card{display:flex;align-items:center;min-height:148px}
+.story-card img,.story-card .story-type{width:132px;height:132px;flex:0 0 132px;aspect-ratio:1;object-fit:contain;object-position:center;margin:.5rem 0 .5rem .5rem;border-radius:9px}
+.story-card .story-type{font-size:4rem}
+.story-card div:last-child{min-width:0;padding:1rem}
+.upcoming-grid img{width:92px;height:92px;flex:0 0 92px;aspect-ratio:1;object-fit:contain}
+.book-teaser-art{display:flex;align-items:center;justify-content:center;padding:1.25rem}
+.book-teaser-art img{width:auto;max-width:100%;height:270px;object-fit:contain;border-radius:5px}
+@media(max-width:900px){.release-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.story-grid{grid-template-columns:1fr}}
+@media(max-width:620px){.release-grid,.story-grid{grid-template-columns:1fr}.release-card img{width:100px;height:100px;flex-basis:100px}.story-card img,.story-card .story-type{width:112px;height:112px;flex-basis:112px}.book-teaser-art img{height:220px}}
