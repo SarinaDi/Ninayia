@@ -35,3 +35,9 @@
 .future-grid .story-card .text-link{display:inline-block;margin-top:.7rem;font-size:.87rem}
 .spotify-embed h3{font:1.4rem Georgia,serif;margin-bottom:.8rem}
 @media(max-width:620px){.future-grid .story-card img{width:112px;height:112px;flex-basis:112px}.future-grid .story-card h3{font-size:1.15rem}}
+
+.featured-listening{background:var(--mist);padding-block:3.2rem}
+.featured-listening .spotify-embed{max-width:760px;margin-top:0}
+.featured-listening .spotify-embed p{color:var(--muted);margin-bottom:.9rem}
+.featured-listening .spotify-embed iframe{display:block}
+.release-card .text-link{display:inline-block;margin-top:.65rem;font-size:.92rem}
