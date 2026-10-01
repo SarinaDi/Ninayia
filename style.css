@@ -41,3 +41,8 @@
 .featured-listening .spotify-embed p{color:var(--muted);margin-bottom:.9rem}
 .featured-listening .spotify-embed iframe{display:block}
 .release-card .text-link{display:inline-block;margin-top:.65rem;font-size:.92rem}
+
+.featured-album{display:flex;align-items:center;gap:1.5rem;max-width:760px;padding:1.2rem;border:1px solid #d9e8ec;border-radius:18px;background:white;box-shadow:0 10px 25px #101d3712}
+.featured-album img{width:170px;height:170px;flex:0 0 170px;object-fit:contain;border-radius:10px}
+.featured-album p{color:var(--muted);margin-bottom:1.2rem}
+@media(max-width:620px){.featured-album{align-items:flex-start;gap:1rem;padding:1rem}.featured-album img{width:108px;height:108px;flex-basis:108px}.featured-album .button{font-size:.88rem;padding:.7rem 1rem}}
