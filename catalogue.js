@@ -1,5 +1,10 @@
 const catalogue = [
   {
+    "title": "Dans Ma Tête",
+    "image": "assets/covers/dans-ma-tete.webp",
+    "tracks": []
+  },
+  {
     "title": "Jeu – Qui suis-je ?",
     "image": "assets/covers/album-jeu-qui-suis-je.webp",
     "tracks": []
