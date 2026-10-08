@@ -1,5 +1,10 @@
 const catalogue = [
   {
+  "title": "Les Oubliés de Minuit · Album 2",
+  "image": "assets/covers/album-2-les-oublies-de-minuit.webp",
+  "tracks": []
+},
+  {
     "title": "Les Oubliés de Minuit · Album 1",
     "image": "assets/covers/album-1-les-oublies-de-minuit.webp",
     "tracks": []
