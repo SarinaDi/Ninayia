@@ -52,3 +52,7 @@
 .hero-platforms a{display:inline-flex;align-items:center;justify-content:space-between;gap:1.25rem;min-height:46px;padding:.55rem 1rem;border:1px solid #ffffffb3;border-radius:999px;background:#0b1c38a8;color:#fff;text-decoration:none;font-weight:700;box-shadow:0 6px 20px #071c494d;backdrop-filter:blur(6px)}
 .hero-platforms a:hover,.hero-platforms a:focus-visible{background:#fff;color:#0b1c38}
 @media(max-width:620px){.hero-platforms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:390px;gap:.55rem}.hero-platforms a{font-size:.88rem;padding:.55rem .85rem}.hero-inner{padding-bottom:2.2rem}}
+
+/* Soutien visible dans la navigation principale. */
+.nav-links .paypal-nav{display:inline-flex;align-items:center;justify-content:center;gap:.35rem;padding:.5rem .9rem;border-radius:999px;background:#ffc439;color:#09264c;font-weight:800;white-space:nowrap}
+.nav-links .paypal-nav:hover,.nav-links .paypal-nav:focus-visible{background:#ffdc7c;color:#09264c}
