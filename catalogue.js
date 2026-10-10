@@ -30,6 +30,7 @@ const catalogue = [
   },
   {
     "title": "Les cendres de mon âme",
+    "buyUrl": "https://payhip.com/b/eQVXo",
     "image": "assets/covers/les-cendres-de-mon-ame.webp",
     "tracks": []
   },
