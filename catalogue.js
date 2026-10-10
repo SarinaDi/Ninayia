@@ -187,6 +187,7 @@ const catalogue = [
   },
   {
     "title": "Corentin",
+    "buyUrl": "https://payhip.com/b/akqDi",
     "image": "assets/covers/album-corentin.webp",
     "tracks": [
       "Entre nous deux",
