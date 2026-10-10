@@ -166,6 +166,7 @@ const catalogue = [
   },
   {
     "title": "Entre l’ancre et le vent",
+    "buyUrl": "https://payhip.com/b/Kk0Dw",
     "image": "assets/covers/entre-l-ancre-et-le-vent.webp",
     "tracks": [
       "Aimer quand même",
