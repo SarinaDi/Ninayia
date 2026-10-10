@@ -194,6 +194,8 @@ const catalogue = [
   },
   {
     "title": "Ma vie",
+    "buyUrl": "https://payhip.com/b/xkjRa",
+    "buyLabel": "Acheter la chanson ↗",
     "image": "assets/covers/ma-vie.webp",
     "tracks": []
   },
