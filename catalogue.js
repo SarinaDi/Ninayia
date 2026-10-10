@@ -1,11 +1,13 @@
 const catalogue = [
   {
   "title": "Les Oubliés de Minuit · Album 2",
+    "buyUrl": "https://payhip.com/b/RWbuJ",
   "image": "assets/covers/album-2-les-oublies-de-minuit.webp",
   "tracks": []
 },
   {
     "title": "Les Oubliés de Minuit · Album 1",
+    "buyUrl": "https://payhip.com/b/GWx9a",
     "image": "assets/covers/album-1-les-oublies-de-minuit.webp",
     "tracks": []
   },
@@ -37,11 +39,13 @@ const catalogue = [
   },
   {
     "title": "Nayia & Kaël – Le Roi des Trois Royaumes",
+    "buyUrl": "https://payhip.com/b/3WVhT",
     "image": "assets/covers/kael-et-nayia-album-3.webp",
     "tracks": []
   },
   {
     "title": "Les Héritiers du Destin",
+    "buyUrl": "https://payhip.com/b/RAnzd",
     "image": "assets/covers/nayia-kael-album-2.webp",
     "tracks": []
   },
@@ -70,6 +74,7 @@ const catalogue = [
   },
   {
     "title": "Nayia & Kaël",
+    "buyUrl": "https://payhip.com/b/iKWJe",
     "image": "assets/covers/nayia-kael.webp",
     "tracks": [
       "Chapitre 1 Le Prince des Enfers",
