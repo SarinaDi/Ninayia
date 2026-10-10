@@ -135,6 +135,7 @@ const catalogue = [
   },
   {
     "title": "Le destin et la rencontre",
+    "buyUrl": "https://payhip.com/b/JqwcZ",
     "image": "assets/covers/le-destin-et-la-rencontre.webp",
     "tracks": []
   },
