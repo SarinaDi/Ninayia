@@ -25,6 +25,8 @@ const catalogue = [
   },
   {
     "title": "La Guerre Que Vous Avez Perdue",
+    "buyUrl": "https://payhip.com/b/eoltG",
+    "buyLabel": "Acheter la chanson ↗",
     "image": "assets/covers/la-guerre-que-vous-avez-perdue.webp",
     "tracks": []
   },
@@ -254,6 +256,6 @@ for(const item of catalogue){
  else {const art=document.createElement('div');art.className='missing-cover';art.textContent='✦';art.setAttribute('aria-hidden','true');card.append(art)}
  const title=document.createElement('h3');title.textContent=item.title;card.append(title);
  if(item.tracks.length){const details=document.createElement('details');const summary=document.createElement('summary');summary.textContent='Voir les chansons';details.append(summary);const list=document.createElement('ul');for(const track of item.tracks){const li=document.createElement('li');li.textContent=track;list.append(li)}details.append(list);card.append(details)}
- if(item.buyUrl){const link=document.createElement('a');link.className='button';link.href=item.buyUrl;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Acheter l’album ↗';link.setAttribute('aria-label','Acheter '+item.title+' sur Payhip');link.style.margin='1rem';card.append(link)}
+ if(item.buyUrl){const link=document.createElement('a');link.className='button';link.href=item.buyUrl;link.target='_blank';link.rel='noopener noreferrer';link.textContent=item.buyLabel||'Acheter l’album ↗';link.setAttribute('aria-label','Acheter '+item.title+' sur Payhip');link.style.margin='1rem';card.append(link)}
  root.append(card);
 }
