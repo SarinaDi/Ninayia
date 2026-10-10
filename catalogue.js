@@ -13,6 +13,7 @@ const catalogue = [
   },
   {
     "title": "Dans Ma Tête",
+    "buyUrl": "https://payhip.com/b/8SeuR",
     "image": "assets/covers/dans-ma-tete.webp",
     "tracks": []
   },
