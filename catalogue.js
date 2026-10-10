@@ -195,6 +195,7 @@ const catalogue = [
   },
   {
     "title": "Choisir l’Espoir",
+    "buyUrl": "https://payhip.com/b/bM0rB",
     "image": "assets/covers/choisir-l-espoir.webp",
     "tracks": [
       "La vie n’est pas toujours mauvaise",
