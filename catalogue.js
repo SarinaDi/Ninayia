@@ -130,6 +130,7 @@ const catalogue = [
   },
   {
     "title": "Le futur et la vie à deux",
+    "buyUrl": "https://payhip.com/b/ziZfF",
     "image": "assets/covers/le-futur-et-la-vie-a-deux.webp",
     "tracks": []
   },
