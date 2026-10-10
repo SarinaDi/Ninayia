@@ -114,6 +114,7 @@ const catalogue = [
   },
   {
     "title": "Une main tendue",
+    "buyUrl": "https://payhip.com/b/Cw0G1",
     "image": "assets/covers/une-main-tendue.webp",
     "tracks": [
       "Apprendre à être heureux",
