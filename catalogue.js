@@ -97,6 +97,7 @@ const catalogue = [
   },
   {
     "title": "Ta vie est devant toi",
+    "buyUrl": "https://payhip.com/b/OgqmG",
     "image": "assets/covers/ta-vie-est-devant-toi.webp",
     "tracks": [
       "À une décision près",
