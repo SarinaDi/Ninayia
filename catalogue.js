@@ -18,6 +18,7 @@ const catalogue = [
   },
   {
     "title": "Jeu – Qui suis-je ?",
+    "buyUrl": "https://payhip.com/b/49Kzi",
     "image": "assets/covers/album-jeu-qui-suis-je.webp",
     "tracks": []
   },
