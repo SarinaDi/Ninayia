@@ -57,6 +57,7 @@ const catalogue = [
   },
   {
     "title": "Rien à prouver",
+    "buyUrl": "https://payhip.com/b/ZA7FD",
     "image": "assets/covers/kael.webp",
     "tracks": [
       "Bleu infini",
