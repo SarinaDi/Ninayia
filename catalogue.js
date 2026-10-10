@@ -142,6 +142,7 @@ const catalogue = [
   },
   {
     "title": "Vers d’autres horizons",
+    "buyUrl": "https://payhip.com/b/sytQr",
     "image": "assets/covers/vers-dautres-horizons.webp",
     "tracks": []
   },
