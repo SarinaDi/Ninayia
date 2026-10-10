@@ -211,6 +211,7 @@ const catalogue = [
   },
   {
     "title": "Celle que je suis",
+    "buyUrl": "https://payhip.com/b/CJbuR",
     "image": "assets/covers/celle-que-je-suis.webp",
     "tracks": [
       "On a qu'une vie",
