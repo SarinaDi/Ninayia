@@ -56,6 +56,8 @@ const catalogue = [
   },
   {
     "title": "당신들은 그들을 부수지 못할 거예요",
+    "buyUrl": "https://payhip.com/b/aSNWI",
+    "buyLabel": "Acheter la chanson ↗",
     "image": "assets/covers/korean-single.webp",
     "tracks": []
   },
