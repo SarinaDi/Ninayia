@@ -142,6 +142,7 @@ const catalogue = [
   },
   {
     "title": "Corentin II — Mon évidence",
+    "buyUrl": "https://payhip.com/b/Yu580",
     "image": "assets/covers/album-corentin-2.webp",
     "tracks": [
       "Celui que j’ai choisi",
