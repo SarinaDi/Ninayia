@@ -1,4 +1,24 @@
 const catalogue = [
+{
+  "title": "La Librairie des histoires inachevées · Album 1",
+  "buyUrl": "https://payhip.com/b/XhnMH",
+  "image": "assets/covers/librairie-histoires-inachevees-album-1.webp",
+  "tracks": [
+    "La librairie après minuit",
+    "Le livre sans auteur",
+    "Tout ce qu’elle n’a pas dit",
+    "Derrière tes silences",
+    "La lettre au fond du tiroir",
+    "Une chance de le dire",
+    "Ce que ton regard me rappelle",
+    "À l’heure où tu n’es pas venu",
+    "Je t’ai attendu là-bas",
+    "Deux versions du même soir",
+    "Là où nous devions nous retrouver",
+    "Je l’ai vu aussi",
+    "Je m’en souviens maintenant"
+  ]
+},
   {
   "title": "Les Oubliés de Minuit · Album 2",
     "buyUrl": "https://payhip.com/b/RWbuJ",
